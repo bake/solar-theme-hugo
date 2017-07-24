@@ -1,6 +1,6 @@
 name = "solar-theme-hugo"
 license = "GPLv2"
-licenselink = "https://github.com/BakeRolls/solar-theme-hugo/blob/master/README.md"
+licenselink = "https://github.com/BakeRolls/solar-theme-hugo/blob/master/LICENSE.md"
 description = ""
 homepage = "https://github.com/BakeRolls/solar-theme-hugo"
 tags = []
@@ -11,7 +11,6 @@ min_version = "0.25.1"
 	name = "BakeRolls"
 	homepage = "https://192k.pw/"
 
-# If porting an existing theme
 [original]
 	name = "solar-theme-ghost"
 	homepage = "https://github.com/BakeRolls/solar-theme-ghost"
