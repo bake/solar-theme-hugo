@@ -1,0 +1,11 @@
+{{ range sort .Paginator.Pages }}
+<article class="post">
+	<h1><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
+
+	<div class="post-content">
+		<p>{{ .Summary | plainify | safeHTML }} {{ if .Truncated }} … {{ end }}</p>
+	</div>
+
+	<p class="meta">Posted on <span class="postdate">{{ .Date.Format "02. January 2006" }}</span></p>
+</article>
+{{ end }}

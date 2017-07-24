@@ -1,0 +1,18 @@
+name = "solar-theme-hugo"
+license = "GPLv2"
+licenselink = "https://github.com/BakeRolls/solar-theme-hugo/blob/master/README.md"
+description = ""
+homepage = "https://github.com/BakeRolls/solar-theme-hugo"
+tags = []
+features = []
+min_version = "0.25.1"
+
+[author]
+	name = "BakeRolls"
+	homepage = "https://192k.pw/"
+
+# If porting an existing theme
+[original]
+	name = "solar-theme-ghost"
+	homepage = "https://github.com/BakeRolls/solar-theme-ghost"
+	repo = "https://github.com/BakeRolls/solar-theme-ghost"
