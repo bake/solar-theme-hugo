@@ -269,7 +269,7 @@ h3 {
 	padding-left: 150px;
 	margin: 40px auto 50px auto;
 	background: url(../img/dag.svg) no-repeat center left;
-	background-size: 100px 100px;
+	background-size: auto 100%;
 }
 #header h1 {
 	font-size: 32px;
