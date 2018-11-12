@@ -104,7 +104,7 @@ body {
 	line-height: 1.1;
 }
 ::selection {
-	background: rgba(255, 255, 255, .05);
+	background: rgba(255, 255, 255, 0.05);
 }
 ol,
 ul {
@@ -214,6 +214,10 @@ h2 {
 }
 h3 {
 	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+h3 {
+	font-size: 13px;
 	margin: 0 0 10px 0;
 }
 
@@ -331,7 +335,7 @@ h3 {
 #sidebar a {
 	border: none;
 	display: block;
-	font-family: "Helvetica Neue", "Helvetica", Sans-Serif;
+	font-family: 'Helvetica Neue', 'Helvetica', Sans-Serif;
 	font-size: 1.2em;
 	padding: 0;
 }
@@ -401,7 +405,7 @@ img.center {
 
 pre,
 code {
-	background-color: rgba(255, 255, 255, .015);
+	background-color: rgba(255, 255, 255, 0.015);
 	color: #93a1a1;
 	font-size: 95%;
 }
@@ -419,8 +423,8 @@ pre code {
 	margin-bottom: 15px;
 }
 
-code[class*="language-"],
-pre[class*="language-"] {
+code[class*='language-'],
+pre[class*='language-'] {
 	-moz-tab-size: 2;
 	-o-tab-size: 2;
 	tab-size: 2;
@@ -432,7 +436,7 @@ pre[class*="language-"] {
 	white-space: pre-wrap;
 	word-break: break-all;
 	word-wrap: break-word;
-	font-family: Menlo, Monaco, "Courier New", monospace;
+	font-family: Menlo, Monaco, 'Courier New', monospace;
 	font-size: 1em;
 	line-height: 1.5;
 	text-shadow: 0;
@@ -519,16 +523,16 @@ pre[class*="language-"] {
 	font-style: normal;
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-	font-family: "solarthemeicons";
+[class^='icon-']:before,
+[class*=' icon-']:before {
+	font-family: 'solarthemeicons';
 	font-style: normal;
 	font-weight: normal;
 	speak: none;
 	display: inline-block;
 	text-decoration: inherit;
 	width: 1em;
-	margin-right: .2em;
+	margin-right: 0.2em;
 	text-align: center;
 	font-variant: normal;
 	text-transform: none;
@@ -559,7 +563,7 @@ pre[class*="language-"] {
 	color: #586e75;
 }
 .namespace {
-	opacity: .7;
+	opacity: 0.7;
 }
 .token.null,
 .token.operator,
