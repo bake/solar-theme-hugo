@@ -100,6 +100,11 @@ nav,
 section {
 	display: block;
 }
+figure {
+	background: rgba(255, 255, 255, 0.015);
+	margin-bottom: 0.5em;
+	padding: 0.25em;
+}
 body {
 	line-height: 1.1;
 }
@@ -378,7 +383,7 @@ article p {
 article img {
 	display: block;
 	text-align: center;
-	max-width: 500px;
+	max-width: 100%;
 	height: auto;
 	margin: 0 auto 1em auto;
 }
