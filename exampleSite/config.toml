@@ -1,6 +1,6 @@
 title = "Solar Theme"
 theme = "solar-theme-hugo"
-paginate = 2
+paginate = 5
 
 [params]
   scheme = "dark"
