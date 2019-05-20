@@ -3,7 +3,7 @@ license = "GPLv2"
 licenselink = "https://github.com/bake/solar-theme-hugo/blob/master/LICENSE.md"
 description = ""
 homepage = "https://github.com/bake/solar-theme-hugo"
-tags = []
+tags = ["blog", "light", "dark", "responsive", "highlight.js"]
 features = []
 min_version = "0.25.1"
 
@@ -12,6 +12,6 @@ min_version = "0.25.1"
 	homepage = "https://192k.pw/"
 
 [original]
+	author = "mattvh"
 	name = "solar-theme-ghost"
-	homepage = "https://github.com/bake/solar-theme-ghost"
-	repo = "https://github.com/bake/solar-theme-ghost"
+	repo = "https://github.com/mattvh/solar-theme-ghost"
