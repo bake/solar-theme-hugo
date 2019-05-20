@@ -3,7 +3,7 @@
 <footer id="footer">
 	<p class="copyright">Powered by
 		<a href="http://ghost.org">Hugo</a> and the
-		<a href="https://github.com/BakeRolls/solar-theme-hugo">Solar</a>-theme.</p>
+		<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.</p>
 </footer>
 </div>
 
@@ -12,9 +12,8 @@
 <script>
 	hljs.initHighlightingOnLoad()
 </script>
-<script>
-	var _paq = _paq || []; _paq.push(["trackPageView"]), _paq.push(["enableLinkTracking"]), function () { var e = "//analytics.192k.pw/"; _paq.push(["setTrackerUrl", e + "piwik.php"]), _paq.push(["setSiteId", "1"]); var a = document, p = a.createElement("script"), t = a.getElementsByTagName("script")[0]; p.type = "text/javascript", p.async = !0, p.defer = !0, p.src = e + "piwik.js", t.parentNode.insertBefore(p, t) }();
-</script>
+
+{{ partial "foot.html" . }}
 </body>
 
 </html>
