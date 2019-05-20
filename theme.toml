@@ -1,17 +1,17 @@
 name = "solar-theme-hugo"
 license = "GPLv2"
-licenselink = "https://github.com/BakeRolls/solar-theme-hugo/blob/master/LICENSE.md"
+licenselink = "https://github.com/bake/solar-theme-hugo/blob/master/LICENSE.md"
 description = ""
-homepage = "https://github.com/BakeRolls/solar-theme-hugo"
+homepage = "https://github.com/bake/solar-theme-hugo"
 tags = []
 features = []
 min_version = "0.25.1"
 
 [author]
-	name = "BakeRolls"
+	name = "bake"
 	homepage = "https://192k.pw/"
 
 [original]
 	name = "solar-theme-ghost"
-	homepage = "https://github.com/BakeRolls/solar-theme-ghost"
-	repo = "https://github.com/BakeRolls/solar-theme-ghost"
+	homepage = "https://github.com/bake/solar-theme-ghost"
+	repo = "https://github.com/bake/solar-theme-ghost"
