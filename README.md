@@ -12,6 +12,16 @@ creating a `logo.svg` in `static/img/`.
 
 ![Screenshot](/images/screenshot.png)
 
+## Installation
+
+Same as with any other theme:
+
+```bash
+$ git clone https://github.com/bake/solar-theme-hugo.git themes/solar-theme-hugo
+$ hugo server --theme=solar-theme-hugo
+...
+```
+
 ## License
 
 GPLv2 or higher
