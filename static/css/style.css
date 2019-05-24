@@ -277,7 +277,7 @@ h3 {
 	width: 650px;
 	padding-left: 150px;
 	margin: 40px auto 50px auto;
-	background: url(../img/dag.svg) no-repeat center left;
+	background: url(/img/logo.svg) no-repeat center left;
 	background-size: auto 100%;
 }
 #header h1 {
