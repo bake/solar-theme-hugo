@@ -3,7 +3,7 @@ theme = "solar-theme-hugo"
 paginate = 5
 
 [params]
-  scheme = "gray"
+  scheme = "dark" # light, dark or gray
   description = "A wizard is never late"
 
 [menu]
