@@ -1,4 +1,4 @@
-{{ range where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ range (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
 <article class="post">
 	<h1><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
 
