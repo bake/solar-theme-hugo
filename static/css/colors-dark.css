@@ -4,6 +4,10 @@ body {
 	color: #839496;
 }
 
+::selection {
+	background: rgba(255, 255, 255, 0.05);
+}
+
 a,
 a:visited,
 a:active,
