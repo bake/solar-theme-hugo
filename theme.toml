@@ -1,9 +1,9 @@
 name = "solar-theme-hugo"
 license = "GPLv2"
 licenselink = "https://github.com/bake/solar-theme-hugo/blob/master/LICENSE.md"
-description = ""
+description = "A light or dark minimalistic theme"
 homepage = "https://github.com/bake/solar-theme-hugo"
-tags = ["blog", "light", "dark", "responsive", "highlight.js"]
+tags = ["blog", "light", "dark", "responsive", "monokai", "highlight.js"]
 features = []
 min_version = "0.25.1"
 
