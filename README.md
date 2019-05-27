@@ -16,7 +16,7 @@ by creating a `head.html` or `foot.html` inside `layouts/partials/`. The default
 
 This theme does not bring a syntax highlighter. If you want to use
 [Hugos](https://gohugo.io/content-management/syntax-highlighting/), remember to
-update the color scheme by [setting pygmentsStyle](/exampleSite/config.toml#L5).
+update the color scheme by [setting pygmentsStyle](/exampleSite/config.toml#L4).
 The pygments style `solarized-dark`, for example, matches the themes `dark`
 color scheme, while `solarized-light` matches `light` and `solarized-dark256`
 works with `gray`. Otherwise, the necessary JavaScript can placed inside
