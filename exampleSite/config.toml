@@ -1,6 +1,7 @@
 title = "Solar Theme"
 theme = "solar-theme-hugo"
 paginate = 5
+pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
 
 [params]
   scheme = "dark" # light, dark or gray
