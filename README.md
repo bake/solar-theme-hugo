@@ -19,7 +19,7 @@ This theme does not bring a syntax highlighter. If you want to use
 update the color scheme by [setting pygmentsStyle](/exampleSite/config.toml#L4).
 The pygments style `solarized-dark`, for example, matches the themes `dark`
 color scheme, while `solarized-light` matches `light` and `solarized-dark256`
-works with `gray`. Otherwise, the necessary JavaScript can placed inside
+works with `gray`. Otherwise, the necessary JavaScript can be placed inside
 `static/` and get included by providing a `footer.html` as described above.
 
 ## Installation
