@@ -30,9 +30,14 @@
 			</div>
 
 			<footer id="footer">
-				<p class="copyright">Powered by
-					<a href="https://gohugo.io/">Hugo</a> and the
-					<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.</p>
+				<p class="copyright">
+					{{ if .Site.Copyright }}
+						{{ .Site.Copyright }}
+					{{ else }}
+						Powered by <a href="https://gohugo.io/">Hugo</a> and the
+						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+					{{ end }}
+				</p>
 			</footer>
 		</div>
 
