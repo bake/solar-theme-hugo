@@ -5,7 +5,7 @@ pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
 copyright = ""
 
 [params]
-  scheme = "dark" # light, dark or gray
+  scheme = "preference" # light, dark, gray or preference
   description = "A wizard is never late"
 
 [menu]
@@ -14,7 +14,7 @@ copyright = ""
     url = "/index.xml"
   [[menu.main]]
     name = "Repository"
-    url = "https://github.com/bake/solar-theme-hugo"
+    url = "https://github.com/bake/solar-theme-hugo/"
   [[menu.other]]
     name = "Hugo"
     url = "https://themes.gohugo.io/solar-theme-hugo/"

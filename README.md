@@ -9,7 +9,8 @@ demo available on
 ## Color schemes
 
 Solar offers three color schemes: (Solarized) `light`, (Solarized) `dark`
-(default) and `gray`.
+(default) and `gray`. Additionally there is a `preference` setting which
+switches between `light` and `dark` according to the users preference.
 
 ## Screenshot
 

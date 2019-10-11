@@ -1,6 +1,8 @@
+@import 'layout';
+
 html,
 body {
-	background-color: #002a35;
+	background-color: #222;
 	color: #839496;
 }
 
@@ -13,17 +15,17 @@ a:visited,
 a:active,
 a code {
 	color: #2aa198;
-	border-color: #073642;
+	border-color: #2b2b2b;
 }
 
 a:hover {
-	background-color: #073642;
-	border-color: #073642;
+	background-color: #2b2b2b;
+	border-color: #2b2b2b;
 	color: #2aa198;
 }
 
 hr {
-	border-color: #073642;
+	border-color: #2b2b2b;
 }
 
 h1,
@@ -39,8 +41,8 @@ h1 a:active {
 }
 
 h1 a:hover {
-	background-color: #073642;
-	border-color: #073642;
+	background-color: #2b2b2b;
+	border-color: #2b2b2b;
 	color: #cb4b16;
 }
 
@@ -58,11 +60,11 @@ blockquote {
 
 #sidebar a:hover span {
 	color: #2aa198;
-	background-color: #073642;
+	background-color: #2b2b2b;
 }
 
 #footer {
-	border-color: #073642;
+	border-color: #2b2b2b;
 }
 
 .hljs {
