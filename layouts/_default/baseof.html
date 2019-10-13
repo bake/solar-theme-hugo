@@ -2,15 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>{{ .Title }}</title>
 		<meta name="viewport" content="width=device-width">
 		{{ with .OutputFormats.Get "RSS" }}
 			<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
 			<link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
 		{{ end }}
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/hybrid.css">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/colors-{{ .Site.Params.scheme | default "dark" }}.css">
+
+		<title>{{ .Title }}</title>
+
+		{{ $style := resources.Get (printf "css/colors-%s.scss" (.Site.Params.scheme | default "dark")) | toCSS | minify | fingerprint }}
+		<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 		{{ partial "head.html" . }}
 	</head>
