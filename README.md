@@ -31,8 +31,12 @@ remember to update the color scheme by
 [setting pygmentsStyle](/exampleSite/config.toml#L4). The pygments style
 `solarized-dark`, for example, matches the themes `dark` color scheme, while
 `solarized-light` matches `light` and `solarized-dark256` works well with
-`gray`. Otherwise, the necessary JavaScript can be placed inside `static/` and
-get included by providing a `footer.html` as described above.
+`gray`.
+
+Otherwise, if you want to use a JavaScript highlighter like
+[highlight.js](https://highlightjs.org/), the necessary JavaScript can be placed
+inside `static/` and get included by providing a `footer.html` as described
+above.
 
 ## Installation
 
